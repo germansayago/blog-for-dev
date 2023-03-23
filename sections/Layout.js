@@ -28,6 +28,9 @@ export default function Layout({ children, pageMeta }) {
         <meta property="og:site_name" content="Blog for Dev" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
+        {meta.date && (
+          <meta property="article:published_time" content={meta.date} />
+        )}
       </Head>
       <div className=" min-h-screen flex flex-col">
         <Header />

@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.16",
+    "@nextui-org/react": "^1.0.0-beta.12",
     "next": "13.2.4",
+    "next-theme": "^0.1.5",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
